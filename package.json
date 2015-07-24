@@ -1,6 +1,6 @@
 {
   "name": "htmlsrv",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Static file server for development which allows for excluding .html extensions when serving requests",
   "main": "index.js",
   "bin": "./bin/htmlsrv",

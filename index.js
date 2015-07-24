@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 var fs = require('fs')
-var PUBLICDIR = __dirname + '/public'
+var PUBLICDIR = process.cwd() + '/public'
 
 app.use(function (req, res, next) {
   if (req.path.indexOf('.') === -1) {
