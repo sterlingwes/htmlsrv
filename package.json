@@ -1,9 +1,9 @@
 {
   "name": "htmlsrv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static file server for development which allows for excluding .html extensions when serving requests",
   "main": "index.js",
-  "bin": "./index.js",
+  "bin": "./bin/htmlsrv",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
