@@ -1,6 +1,6 @@
 {
   "name": "htmlsrv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Static file server for development which allows for excluding .html extensions when serving requests",
   "main": "index.js",
   "bin": "./bin/htmlsrv",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/sterlingwes/htmlsrv/issues"
   },
-  "homepage": "https://github.com/sterlingwes/htmlsrv#readme"
+  "homepage": "https://github.com/sterlingwes/htmlsrv#readme",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
 }
