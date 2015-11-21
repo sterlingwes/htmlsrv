@@ -3,6 +3,7 @@ var app = express()
 var fs = require('fs')
 
 var DEFAULT_FOLDER = process.env.SRV || 'public'
+var PORT = process.env.PORT || 8000
 var PUBLICDIR = process.cwd() + '/' + DEFAULT_FOLDER
 
 app.use(function (req, res, next) {
@@ -20,6 +21,5 @@ app.use(function (req, res, next) {
 })
 app.use(express.static(PUBLICDIR))
 
-var PORT = 8000
 app.listen(PORT)
 console.log('Listening on ' + PORT + ' and serving ' + PUBLICDIR)
